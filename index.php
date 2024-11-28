@@ -30,20 +30,20 @@
 
 			<div class="contenerdo_login-registrarse">
 				<!--Pertenece al login-->
-				<form action="" class="formulario_login">		
+				<form action="php/login_usuario.php" method="POST" class="formulario_login">		
 					<h2>Iniciar Sesión</h2>
-					<input type="text" placeholder="Correo Electronico">
-					<input type="password" placeholder="Contraseña">
+					<input type="text" placeholder="Correo Electronico" name="correo">
+					<input type="password" placeholder="Contraseña" name="contrasena">
 					<button>Entrar</button>
 				</form>	
 
 				<!--Pertenese al Regístro-->
-				<form action="" class="formulario_registrarse">
+				<form action="php/registro_usuario.php" method="POST" class="formulario_registrarse">
 					<h2>Regístrate</h2>
-					<input type="text" placeholder="Nombre Completo">
-					<input type="text" placeholder="Correo Electronico">
-					<input type="text" placeholder="Usuario">
-					<input type="password" placeholder="Contraseña">
+					<input type="text" placeholder="Nombre Completo" name="nombre_completo">
+					<input type="text" placeholder="Correo Electronico" name="correo">
+					<input type="text" placeholder="Usuario" name="usuario">
+					<input type="password" placeholder="Contraseña" name="contrasena">
 					<button>Regístrase</button>
 				</form>	
 
