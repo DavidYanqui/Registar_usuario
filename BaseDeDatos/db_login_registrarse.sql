@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 
 -- --------------------------------------
 -- Base de datos: `db_login_registrarse`
--- ---------------------------------------
+
 
 DROP DATABASE db_login_registrarse;
 CREATE DATABASE db_login_registrarse;
